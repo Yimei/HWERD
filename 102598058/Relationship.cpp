@@ -5,7 +5,7 @@
 #define TWO 2
 using namespace std;
 Relationship::Relationship():Node(){
-	for (int i = 0; i < connectedEntity.size();i++)
+	for (unsigned int i = 0; i < connectedEntity.size();i++)
 	{
 		connectedEntity[i] = NULL;
 	}

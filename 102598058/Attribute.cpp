@@ -5,7 +5,7 @@
 using namespace std;
 Attribute::Attribute():Node()
 {	
-	for (int i = 0; i < connectedEntity.size();i++)
+	for (unsigned int i = 0; i < connectedEntity.size();i++)
 		connectedEntity.push_back(NULL);
 }
 void Attribute::connectTo(Component* component)

@@ -4,7 +4,7 @@ using namespace std;
 Connector::Connector():Component(){
 	_nodeOneConnectionId=0;
 	_nodeTwoConnectionId=0;
-	for (int i = 0; i < connectedComponent.size();i++)
+	for (unsigned int i = 0; i < connectedComponent.size();i++)
 	{
 		connectedComponent.push_back(NULL);
 	}

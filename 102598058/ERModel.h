@@ -1,5 +1,7 @@
 #ifndef _ERModel_H_ 
 #define _ERModel_H_
+#include <gtest/gtest_prod.h> 
+
 #include "string"
 #include <vector>
 #include "CommandManager.h"
@@ -8,6 +10,24 @@
 #include <iostream>
 using namespace std;
 class ERModel{
+	//friend class ERModelTest;
+	FRIEND_TEST(ERModelTest, addNode);
+	/*FRIEND_TEST(ERModelTest, clone);
+	FRIEND_TEST(ERModelTest, connectionsClone);
+	FRIEND_TEST(ERModelTest, componentsClone);
+	FRIEND_TEST(ERModelTest, checkDeleteComponentIDLoop);
+	FRIEND_TEST(ERModelTest, existId);
+	FRIEND_TEST(ERModelTest, addComponentsFromFile);
+	FRIEND_TEST(ERModelTest, updateID);
+	FRIEND_TEST(ERModelTest, convertIdtoComponent);
+	FRIEND_TEST(ERModelTest, loadFile);
+	FRIEND_TEST(ERModelTest, saveFile);
+	FRIEND_TEST(ERModelTest, addPrimaryKeyFromFile);
+	FRIEND_TEST(ERModelTest, checkAddConnectionNodeTwo);
+	FRIEND_TEST(ERModelTest, connectTwoNode);
+	FRIEND_TEST(ERModelTest, createConnector);
+	FRIEND_TEST(ERModelTest, checkExistConnection);*/
+	
 public:
 	ERModel();
 	virtual ~ERModel();

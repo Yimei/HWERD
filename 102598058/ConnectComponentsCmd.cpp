@@ -4,7 +4,7 @@ ConnectComponentsCmd::ConnectComponentsCmd(ERModel* model,string type):Command()
 	componentCopy = NULL;
 	componentType = type;
 	eRModel = model;
-	for (int i = 0; i < connectionsCopy.size();i++)
+	for (unsigned int i = 0; i < connectionsCopy.size();i++)
 	{
 		connectionsCopy[i] = NULL;
 	}
@@ -25,7 +25,7 @@ void ConnectComponentsCmd::execute()
 	else
 	{
 		eRModel->setComponentsVector(componentCopy);
-		for (int i = 0; i < connectionsCopy.size();i++)
+		for (unsigned int i = 0; i < connectionsCopy.size();i++)
 		{
 			eRModel->setConnectionsVector(connectionsCopy[i]);
 		}
