@@ -72,6 +72,12 @@
     <ClCompile Include="..\102598058\TextUI.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="AttributeUnitTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentUnitTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sample1.h">

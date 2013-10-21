@@ -26,6 +26,8 @@
     <ClCompile Include="..\102598058\PresentationModel.cpp" />
     <ClCompile Include="..\102598058\Relationship.cpp" />
     <ClCompile Include="..\102598058\TextUI.cpp" />
+    <ClCompile Include="AttributeUnitTest.cpp" />
+    <ClCompile Include="ComponentUnitTest.cpp" />
     <ClCompile Include="ERModelUnitTest.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="sample1.cc" />
@@ -73,7 +75,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>c:\gtest\include;../102598058;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\gtest\include;../102598058;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

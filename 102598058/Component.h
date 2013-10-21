@@ -4,6 +4,8 @@
 #include <string>
 using namespace std;
 class Component{
+	friend class ComponentUnitTest;
+	
 public:
 	Component();
 	virtual ~Component();

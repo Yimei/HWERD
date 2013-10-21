@@ -22,6 +22,7 @@ bool Attribute::canConnectTo(Component* component){
 	}
 	else
 	{
+		//return true;
 		connectedEntity.push_back(component);
 	}
 }
@@ -29,6 +30,10 @@ vector<Component*> Attribute::getConnections()
 {
 	return connectedEntity;
 }
+//void Attribute::pushConnectedEntity()
+//{
+//	conn
+//}
 Attribute::~Attribute()
 {
 }
