@@ -11,7 +11,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\102598058\AddComponentCmd.cpp" />
+    <ClCompile Include="..\102598058\Attribute.cpp" />
+    <ClCompile Include="..\102598058\Command.cpp" />
+    <ClCompile Include="..\102598058\CommandManager.cpp" />
+    <ClCompile Include="..\102598058\Component.cpp" />
+    <ClCompile Include="..\102598058\ComponentFactory.cpp" />
+    <ClCompile Include="..\102598058\ConnectComponentsCmd.cpp" />
+    <ClCompile Include="..\102598058\Connector.cpp" />
+    <ClCompile Include="..\102598058\DeleteComponentCmd.cpp" />
+    <ClCompile Include="..\102598058\Entity.cpp" />
     <ClCompile Include="..\102598058\ERModel.cpp" />
+    <ClCompile Include="..\102598058\Node.cpp" />
+    <ClCompile Include="..\102598058\PresentationModel.cpp" />
+    <ClCompile Include="..\102598058\Relationship.cpp" />
+    <ClCompile Include="..\102598058\TextUI.cpp" />
     <ClCompile Include="ERModelUnitTest.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="sample1.cc" />
@@ -59,7 +73,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>c:\gtest\include;..\102598058\102598058_ERD;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>c:\gtest\include;../102598058;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
